@@ -8,6 +8,6 @@ import {b as value} from "./file3.mjs"
 // console.log(value)
 
 
-import add from "./utils/add.js"
+import add from "./utils/add.mjs"
 
 console.log(add(30, 40));
