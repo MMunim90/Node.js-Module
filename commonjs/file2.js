@@ -13,3 +13,7 @@ const {a, b} = require("./file1.js");
 const {a: x, b: y} = require("./file1.js");
 console.log(x)
 console.log(y)
+
+
+const add = require("./utils/add.js");
+console.log("Total sum: ", add(x, y))
